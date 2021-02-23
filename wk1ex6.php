@@ -3,7 +3,8 @@
 <?php 
     $firstname = "Richard";
     $lastname = "Mather";
-    $name = $firstname . $lastname;
+    $space = " ";
+    $name = $firstname . $space . $lastname;
     echo $name;
 ?>
 </html>
