@@ -10,7 +10,7 @@
 ?>
 
 <form action="confirmation.php" method="post">
-    Select the colour for the <?php echo $_SESSION['selqty']; ?> widgets you are ordering for the price of <?php echo $_POST['size']; ?> each.
+    Select the colour for the <?php echo $_SESSION['selqty']; ?> widgets you are ordering for the price of <?php echo $_SESSION['size']; ?> each.
     <select name="selcolour">
         <option>white</option>
         <option>red</option>
